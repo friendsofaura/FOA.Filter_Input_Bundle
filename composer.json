@@ -18,7 +18,7 @@
     },
     "autoload": {        
         "psr-4": {
-            "Aura\\Input_Filter_Bundle\\_Config\\": "src/",
+            "Aura\\Input_Filter_Bundle\\": "src/",
             "Aura\\Input_Filter_Bundle\\_Config\\": "config/"
         }
     },
