@@ -1,0 +1,33 @@
+{
+    "name": "aura/input-filter-bundle",
+    "type": "library",
+    "description": "Integration bundle for Aura.Input with Aura.Filter",
+    "keywords": [ "filter", "validate", "sanitize", "form", "input" ],
+    "homepage": "https://github.com/harikt/Aura.Input_Filter_Bundle",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Aura Contributors",
+            "homepage": "https://github.com/harikt/Aura.Input_Filter_Bundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "aura/input": "1.*",
+        "aura/filter": "1.*"
+    },
+    "autoload": {        
+        "psr-4": {
+            "Aura\\Input_Filter_Bundle\\_Config\\": "src/",
+            "Aura\\Input_Filter_Bundle\\_Config\\": "config/"
+        }
+    },
+    "extra": {
+        "aura": {
+            "type": "library",
+            "config": {
+                "common": "Aura\\Input_Filter_Bundle\\_Config\\Common"                
+            }
+        }
+    }
+}
