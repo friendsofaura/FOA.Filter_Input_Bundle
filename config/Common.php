@@ -8,6 +8,7 @@ class Common extends Config
 {
     public function define(Container $di)
     {
+        $di->params['Aura\Input\Form']['filter'] = $di->lazyNew('Aura\Input_Filter_Bundle\Filter');        
     }
     
     public function modify(Container $di)
