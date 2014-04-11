@@ -1,5 +1,5 @@
 {
-    "name": "aura/filter-input-bundle",
+    "name": "foa/filter-input-bundle",
     "type": "library",
     "description": "Integration bundle for Aura.Input with Aura.Filter",
     "keywords": [ "filter", "validate", "sanitize", "form", "input" ],
