@@ -1,5 +1,5 @@
 <?php
-namespace FOA\FOA_Filter_Input_Bundle;
+namespace FOA\Filter_Input_Bundle;
 
 use Aura\Input\FilterInterface;
 use Aura\Filter\RuleCollection;
