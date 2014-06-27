@@ -11,6 +11,7 @@
             "homepage": "https://github.com/friendsofaura/FOA.Filter_Input_Bundle/contributors"
         }
     ],
+    "minimum-stability":"dev",
     "require": {
         "php": ">=5.4.0",
         "aura/input": ">=1.0.0,<=2.0.0",
