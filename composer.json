@@ -27,8 +27,6 @@
             "type": "bundle",
             "config": {
                 "common": [
-                    "Aura\\Input\\_Config\\Common",
-                    "Aura\\Filter\\_Config\\Common",
                     "FOA\\Filter_Input_Bundle\\_Config\\Common"
                 ]
             }
